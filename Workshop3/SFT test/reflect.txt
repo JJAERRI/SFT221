@@ -1,0 +1,7 @@
+/*******************************
+Name: Chaerin Yoo
+Student Number: 102998234
+Section: NCC
+*******************************/
+
+1. Within the getInput() function, I created a loop to test the function for collecting client information, particularly to make sure that blank lines were not supplied. Until a non empty string is entered, this loop asks the user for input repeatedly. Finding a newline character as the first character in the input buffer meant that the Enter key had been hit without any input. I would simulate user inputs directly if I had to verify that the application generated the right prompts for blank lines. This might include creating a test script that calls the function with both valid and invalid (empty) inputs and then examines the function's output or response. The script would confirm that the software appropriately prompts the user for input for every invalid input. More sophisticated testing methods would probably be used in this type of testing, maybe integrating an automation framework that can more closely simulate user interactions.

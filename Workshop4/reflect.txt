@@ -1,0 +1,20 @@
+/*********************************************
+SFT - Workshop4
+Name: Chaerin Yoo
+ID: 102998234
+Email: cyoo10@myseneca.ca
+Section: NCC
+*********************************************/
+
+1. Logic analysis and code review were the two methods that proved to be the most effective in locating flaws. This included closely reviewing the code to deduce intended behavior and actual implementation. Understanding the program's logic and flow helped us to identify areas where reason strayed from its expected use. Many logical flaws and false conditions may not always indicate them in the compiler, but might cause erroneous runtime behavior or infinite loops, so this was more beneficial than other methods depending just on compiler faults or alerts.
+
+2.
+a. The largest value for a signed 32-bit integer is 2,147,483,647.
+The largest value for a double is approximately 1.7976931348623157.
+b. The fixed amount of bits that are allotted to store a variable is the reason why the greatest value that a variable can store is limited. There are 32 bits that make up a 32-bit integer; one bit is used for the sign, and the remaining 31 bits are utilized for the value. The largest value that may be stated in bits is produced as a result of this.
+c. An integer overflow happens when the maximum value that an integer is capable of holding is exceeded by the integer. As a result of the integer being stored in a fixed binary format, a wraparound effect is produced. This occurs because the excess bits are destroyed if the value exceeds the capacity of the storage mechanism.
+d. In the case of floating point variables, the IEEE754 standard is utilized for their storage. However, this is not the same as the way of storing integers, which involves using all of the bits to encode the values of the numbers. This is because an integer has a fixed representation that does not require an exponent, which allows it to represent another integer within a specific range. Floating points, on the other hand, are able to accommodate a significantly larger range of values, which can include both extremely small and extremely large numbers.
+
+3. The default stack size in Visual Studio for C/C++ projects is 1 MB. Usually far more than necessary, the heap size is default; yet, the system and settings will affect the initial allocation. Usually, the first heap allocation begins at roughly 4 MB.
+A stack overflow error results when the stack limit is exhausted. Assigning a big local variable can cause this. Usually, an out-of-memory error results from reaching the heap limit—that is, from using more memory than the system can supply.
+While it is more usually for other optimization signals, including dynamic memory allocation, increasing the stack size can help to fix the stack overflow issue. Reducing the stack and heap sizes helps individual programs from devouring all system resources, hence preserving the system's stability and responsiveness. Moreover, by employing minimal and suitable memory to stop too high memory consumption, developers can effectively build codes.

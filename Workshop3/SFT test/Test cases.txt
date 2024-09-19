@@ -1,0 +1,78 @@
+/*******************************
+Name: Chaerin Yoo
+Student Number: 102998234
+Section: NCC
+*******************************/
+
+
+getCustomerInfo Test cases:
+
+Black Box Test Cases:
+- To test input valid data
+Input First Name: "Chaerin", Last Name: "Yoo", Address: "211 Holmes St", City: Toronto", Province: "ON", Postal Code: "M2N 4M9"
+Expected Result: All information comes out correctly.
+Description: Input valid information.
+Result: Pass
+
+- To test press the enter
+Input First Name: "Chaerin", then press the Enter.
+Expected Result: "Invalid Entry"
+Description: Print a statement that says to re-enter the last name because I have blanked it where I need to put it.
+Result: Error
+
+- To test input invalid postal code
+Input First Name: "Chaerin", Last Name: "Yoo", Address: "211 Holmes St", City: Toronto", Province: "ON", Postal Code: "m2n345"
+Expected Result: "Invalid Entry"
+Description: Print the word invalid because it was written incorrectly for the postcode form
+Result: Error
+
+White Box Test Cases:
+-To test press the enter
+Input the enter for the First Name.
+Expected Result: "Invalid Entry"
+Description: Print a statement that says to re-enter the last name because I have blanked it where I need to put it.
+Result: Error
+
+- To test input lower case postal code
+Input First Name: "Chaerin", Last Name: "Yoo", Address: "211 Holmes St", City: Toronto", Province: "ON", Postal Code: "m2n 4m9"
+Expected Result: Postal code changed to uppoer case.
+Description: It can enter lowercase letters and receive a string in uppercase letters.
+Result: Pass
+
+IsValidPostalCode case:
+
+Black Box Test Cases:
+-To test enter whole complete postal code.
+Input: "M2N 4M9"
+Expected Result: Accepted and correctly formatted.
+Description: Uppercase and space-separated postal code is valid.
+Result: Pass
+
+-To test enter incorrectly postal code
+Input: "c3j93d"
+Expected Result: Rejected then show error message.
+Description: Incorrectly formatted postal code.
+Result: Error
+
+-To test enter lower case in postal code
+Input: "m2n 4m9"
+Expected Result: "M2N 4M9"
+Description: It may input lowercase characters and output a string in uppercase characters.
+Result: Pass
+
+White Box Test Cases: 
+-To test enter postal code with no space
+Input: "M2N4M9"
+Expected Result: It doesn't accept then come out error message
+Description: Character validation is being tested using invalid input.
+Result: Error
+
+-To test enter postal code with symbol
+Input: "M@N 8#9"
+Expected Result: Did not pass test.
+Description: Testing character validation with invalid input.
+
+-To test enter just three character postal code
+Input: "M2N"
+Expected Result: Did not pass test.
+Description: Make sure it also receive very short strings by postal code.

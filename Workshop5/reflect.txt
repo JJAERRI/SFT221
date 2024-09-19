@@ -1,0 +1,15 @@
+/*******************************
+SFT - WORKSHOP 5 Reflection
+NAME: Chaerin Yoo
+ID: 102998234
+EMAIL: cyoo10@myseneca.ca
+SECTION: NCC
+*******************************/
+
+1. Stepping through the code and setting breakpoints were the debugger tools that proved to be the most helpful tool. I am able to better comprehend the parts of the program that are not functioning as planned with the assistance of this tool, which analyzes the flow of code. Through the examination of the value of a variable at each stage, it enables me to recognize logical flaws as well as incorrect variable input or execution occurrences. When compared to other ways, this method offers a comprehensive view of the execution of the program and enables us to identify the problem. As a result, I was able to zero in on the specific issue.
+
+2. I didn't use conditional breakpoints among the various methods of debugging. Due to the fact that the code that has been provided concentrates on only one function rather than a code that contains several functions, it is necessary for me to comprehend the code and comprehend the flow throughout. Due to the fact that conditional breakpoints necessitate the establishment of certain conditions and breakpoints, I came to the conclusion that this method was not suitable for implementation with this code. In scenarios when there are more sophisticated conditions that only cause problems in specific circumstances, conditional breakpoints will be useful.
+
+3. If I use both approaches, I believe I will be able to identify bugs more rapidly. By using debuggers, I am able to examine the execution in great detail, and by using printouts, I am able to swiftly identify and eliminate errors. The ability of print phrases to give continuous information makes them an extremely helpful tool for finding and analyzing scenarios in which problems present themselves. Through the use of debuggers, I am able to detect specific problems that would otherwise be difficult to spot using only generic information. A debugger can be highly helpful in situations where the problem is difficult to spot and requires real-time debugging. However, print commands are more suitable for situations where continuous monitoring and visual checks are required at all times.
+
+4. First, I discovered the bug by utilizing the testStr that was provided by the main.c file. Consequently, I created an additional test scenario. I created a number of other test cases, including "string with multiple line-changing characters in various locations," "string with mixed words and numbers," and "blank string, string with only spaces." Other examples include "string with mixed words and numbers." As a result, in order to replicate the actual situation, we incorporated strings that had a variety of word and numerical patterns. Furthermore, in addition to these many test cases, we established breakpoints in the code in order to examine the code in a step-by-step manner. Furthermore, we discovered and rectified the error by utilizing our method of testing the variables. In this regard, we have developed a great deal of confidence.

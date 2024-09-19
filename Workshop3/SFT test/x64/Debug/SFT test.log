@@ -1,0 +1,6 @@
+﻿  main.cpp
+  test_customer.cpp
+  코드를 생성하고 있습니다...
+  LINK : C:\Users\rhyn2\OneDrive\바탕 화면\SFT test\x64\Debug\SFT test.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+test_customer.obj : error LNK2005: main이(가) main.obj에 이미 정의되어 있습니다.
+C:\Users\rhyn2\OneDrive\바탕 화면\SFT test\x64\Debug\SFT test.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.

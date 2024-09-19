@@ -1,0 +1,13 @@
+/*******************************
+SFT - WORKSHOP 6 Reflection
+NAME: Chaerin Yoo
+ID: 102998234
+EMAIL: cyoo10@myseneca.ca
+SECTION: NCC
+*******************************/
+
+1. Based on my debugging experience, using log files turned out to be usually more successful in identifying problems. It is quite helpful to have log files because they offer a thorough record of the program's execution over time. This record is extremely useful for locating errors that are either complex or intermittent and may not be noticed by assertions. Though they can occasionally overlook flaws that only show up under particular sets of events, assertions are strong for spotting specific scenarios that should never arise. Log files let me to examine the behavior of the software leading up an error, thereby enabling me to see trends and fundamental causes more precisely.
+
+2. Using a debugger gives an interactive way to grasp the status of the program at any one instant, so I prefer debugging using one. Particularly helpful for rapidly spotting where things go wrong, the debugger lets me set breakpoints, examine variables, and line-by- line walkthrough the code. However, there are circumstances in which log files are the only option available. One example of this is while trying to solve problems in a production environment where it is not possible to halt the application. In these situations, even if using log files for debugging might be just as successful, it usually takes more time since it entails manually sorting through huge files and connecting happenings. Nonetheless, logs are absolutely essential for examination investigation and comprehension of problems not easily repeatable in a debugging session.
+
+3. My confidence in discovering all the flaws came from extensive manual and automated testing. Running a thorough suite of tests, including stress tests and edge cases, helped to guarantee that the code performed as expected in many different contexts. I wouldn't, however, bet my life savings on having discovered all the flaws. Software is inherently complicated, and there is always the possibility that there are problems that have not yet been uncovered. To bet all my money on a bet that I found a bug, I would follow a thorough code review process, include more testing by other team members, and guarantee thorough real-world testing under diverse scenarios to feel more at ease with such a bet. This strategy would greatly raise my faith in the software's test.
